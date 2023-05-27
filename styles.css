@@ -83,7 +83,7 @@ body {
       padding: 1rem;
     }
     .nav-header {
-      padding: 0;
+      padding: 10px;
     }
     .nav-toggle {
       display: none;
@@ -232,6 +232,12 @@ body {
 
   .buttons-container button#prevBtn {
     left: 0;
+  }  
+
+  @media (max-width: 480px) {
+    .slider-container {
+      max-width: 470px;
+    }
   }
 
   /* Education */
