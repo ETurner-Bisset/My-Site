@@ -1,9 +1,11 @@
 // navbar
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
+const heroContainer = document.querySelector('.hero-container');
 
 navToggle.addEventListener('click', function() {
     links.classList.toggle("show-links");
+    heroContainer.classList.toggle('down');
 });
 
 
